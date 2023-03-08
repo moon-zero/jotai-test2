@@ -1,0 +1,26 @@
+{
+  "info": { "name": "Sparkles", "weight": "25" },
+  "owner": { "id": 1, "firstName": "John", "lastName": "Doe" },
+  "parts": [
+    {
+      "type": "legs",
+      "attributes": [
+        { "placement": "front-left", "injured": false },
+        { "placement": "front-right", "injured": false },
+        { "placement": "back-left", "injured": false },
+        { "placement": "back-right", "injured": true }
+      ]
+    },
+    {
+      "type": "tail",
+      "attributes": [{ "placement": "back", "injured": false }]
+    },
+    {
+      "type": "ears",
+      "attributes": [
+        { "placement": "left", "injured": false },
+        { "placement": "right", "injured": true }
+      ]
+    }
+  ]
+}
